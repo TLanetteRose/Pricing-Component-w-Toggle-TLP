@@ -24,12 +24,103 @@ body {
   max-width: 880px;
   height: 100vh;
   margin: 0;
-  background-image: url("/images/bg-top.svg");
-  background-position: top right;
-  background-repeat: no-repeat;
+  background: #f6f6fe;
+  /*background-image: url("/images/bg-top.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%;*/
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
+}
+
+.bg-top {
+  position: absolute;
+  top: 0;
+  right: -150px;
+  z-index: -1;
+}
+
+.bg-bottom {
+  display: none;
+}
+
+.container {
+  margin: 40px auto 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #494c5f;
+  margin-top: 60px;
+}
+
+.toggle__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 35px auto 60px auto;
+  color: #b3b5c6;
+}
+
+/* Price Cards Styling */
+.price__cards {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price__cards ul {
+  list-style-type: none;
+  margin: -20px 20px 20px;
+}
+
+.price__card {
+  width: 350px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.price__card h3 {
+  margin: 30px 0;
+  color: #6d708d;
+}
+
+.price__card .price {
+  margin-bottom: -5px;
+  font-size: 4em;
+}
+
+.price__card .hide-unchecked {
+  visibility: hidden;
+}
+
+.price__card ul li {
+  padding: 10px 30px;
+  border-top: 1px solid #b3b5c6;
+}
+
+.price__card ul li:last-child {
+  border-bottom: 1px solid #b3b5c6;
 }
 
 /* Footer Styling */
