@@ -37,3 +37,9 @@ background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
     background-position: top right, left bottom;
     background-repeat: no-repeat;
     max-width: 1440px;
+
+
+    Annual
+    Basic &dollar;199.99
+    Professional &dollar;249.99
+    Master &dollar;399.99
