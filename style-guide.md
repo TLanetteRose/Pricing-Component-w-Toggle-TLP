@@ -49,3 +49,7 @@ bg-bottom
     bottom: 0;
     left: 0;
     z-index: 0;
+
+    <div class="price hide-unchecked" id="basic"><span>&dollar;</span>199.99</div>
+    <div class="price hide-unchecked" id="professional"><span>&dollar;</span>249.99</div>
+    <div class="price hide-unchecked" id="master"><span>&dollar;</span>399.99</div>

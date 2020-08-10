@@ -136,9 +136,17 @@ h1 {
   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
-.toggle__container #checkbox:checked + .switch .slider-round {
+.toggle__container .switch #checkbox:checked + .slider-round {
   -webkit-transform: translateX(-29px);
           transform: translateX(-29px);
+}
+
+.toggle__container #checkbox:active::before {
+  left: 0;
+}
+
+.toggle__container #checkbox:active {
+  background: #a3a8f0;
 }
 
 /* Price Cards Styling */
@@ -187,7 +195,7 @@ h1 {
 }
 
 .price__card .price {
-  margin-bottom: -10px;
+  margin-bottom: 40px;
   font-size: 4.5em;
 }
 
@@ -196,10 +204,6 @@ h1 {
   margin-right: 5px;
   padding: 0 5px 10px;
   vertical-align: middle;
-}
-
-.price__card .hide-unchecked {
-  visibility: hidden;
 }
 
 .price__card ul li {
