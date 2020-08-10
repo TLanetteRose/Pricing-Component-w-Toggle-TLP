@@ -230,6 +230,12 @@ h1 {
   color: #ffffff;
 }
 
+.price__card .cta-btn:hover {
+  background: transparent;
+  color: #696fdd;
+  border: 1px solid #494c5f;
+}
+
 .center {
   background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(to bottom, #a3a8f0, #696fdd);
@@ -250,6 +256,12 @@ h1 {
 .center .cta-btn {
   background: #ffffff;
   color: #696fdd;
+}
+
+.center .cta-btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid white;
 }
 
 /* Footer Styling */
