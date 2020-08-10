@@ -43,3 +43,9 @@ background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
     Basic &dollar;199.99
     Professional &dollar;249.99
     Master &dollar;399.99
+
+bg-bottom
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
