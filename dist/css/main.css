@@ -69,14 +69,38 @@ h1 {
   margin: 35px auto 60px auto;
 }
 
-.toggle__container label {
-  width: 100%;
+.toggle__container #checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.toggle__container .switch {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 34px;
+  width: 60px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #111111;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+  cursor: pointer;
+}
+
+.toggle__container .toggle-label {
+  position: absolute;
+  top: 0;
+  left: -1%;
+  width: 102%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50px;
+  opacity: 0;
 }
 
 /* Price Cards Styling */
