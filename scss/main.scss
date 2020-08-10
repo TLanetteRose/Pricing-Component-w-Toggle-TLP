@@ -16,7 +16,7 @@ $font-weight: 700;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
 }
 
 body {
@@ -80,6 +80,8 @@ h1 {
 }
 
 .price__card {
+    display: flex;
+    flex-direction: column;
     width: 350px; 
     padding: 30px;
     margin-bottom: 30px;
@@ -94,15 +96,17 @@ h1 {
 }
 
 .price__card .price {
-    margin-bottom: -5px;
-    font-size: 4em;
+    margin-bottom: -10px;
+    font-size: 4.5em;
 }
 
-.price__card .price span {
-    font-size: .60em;
-    padding: 0 10px;
+.price__card > div:nth-child(2) span, .price__card > div:nth-child(3) span {
+    font-size: 40px;
+    margin-right: 5px;
+    padding: 0 5px 10px;
     vertical-align: middle;
 }
+
 
 .price__card .hide-unchecked {
     visibility: hidden;
