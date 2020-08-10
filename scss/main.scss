@@ -57,13 +57,22 @@ h1 {
     margin-top: 60px;
 }
 
+/* Toggle Switch styling */
+
 .toggle__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 35px auto 60px auto;
+}
+
+.toggle__container label {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 35px auto 60px auto;
-    color: $lt-grayish-blue;
 }
+
+
 
 
 /* Price Cards Styling */

@@ -55,6 +55,7 @@ h1 {
   margin-top: 60px;
 }
 
+/* Toggle Switch styling */
 .toggle__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,7 +67,16 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   margin: 35px auto 60px auto;
-  color: #b3b5c6;
+}
+
+.toggle__container label {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Price Cards Styling */
