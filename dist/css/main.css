@@ -86,6 +86,7 @@ h1 {
   width: 60px;
   margin: 0 auto;
   padding: 5px;
+  border-radius: 50px;
   background-color: #111111;
   background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(to right, #a3a8f0, #696fdd);
@@ -101,6 +102,43 @@ h1 {
   background: #ffffff;
   border-radius: 50px;
   opacity: 0;
+}
+
+.toggle__container .switch::before {
+  content: "Annually";
+  position: absolute;
+  left: -100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #b3b5c6;
+}
+
+.toggle__container .switch::after {
+  content: "Monthly";
+  position: absolute;
+  right: -200%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #b3b5c6;
+}
+
+.toggle__container .slider-round {
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  height: 25px;
+  width: 25px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.toggle__container #checkbox:checked + .switch .slider-round {
+  -webkit-transform: translateX(-29px);
+          transform: translateX(-29px);
 }
 
 /* Price Cards Styling */
