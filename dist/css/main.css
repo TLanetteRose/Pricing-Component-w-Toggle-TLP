@@ -6,7 +6,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 }
 
 .bg-bottom {
-  display: none;
+  visibility: hidden;
 }
 
 .container {
@@ -151,7 +151,7 @@ h1 {
 
 /* Price Cards Styling */
 .price__cards {
-  margin: 20px;
+  margin: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,5 +271,37 @@ footer {
 
 .attribution a {
   color: #3e52a3;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 881px) {
+  body {
+    max-width: 1440px;
+  }
+  .bg-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .bg-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    visibility: visible;
+  }
+  .price__cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .price__cards .center {
+    z-index: 2;
+    padding: 60px 30px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
