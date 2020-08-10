@@ -6,7 +6,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
 }
 
 body {
@@ -25,10 +25,6 @@ body {
   height: 100vh;
   margin: 0;
   background: #f6f6fe;
-  /*background-image: url("/images/bg-top.svg");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 50%;*/
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
