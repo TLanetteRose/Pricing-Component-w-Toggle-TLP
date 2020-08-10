@@ -32,11 +32,7 @@ The designs were created to the following widths:
 - Weight: 700
 
 
-For Desktop: 
-background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
-    background-position: top right, left bottom;
-    background-repeat: no-repeat;
-    max-width: 1440px;
+
 
 
     Annual
@@ -44,8 +40,5 @@ background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
     Professional &dollar;249.99
     Master &dollar;399.99
 
-bg-bottom
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
+
+    
