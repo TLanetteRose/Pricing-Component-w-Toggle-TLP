@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 /* Variables */
 
@@ -83,6 +83,7 @@ h1 {
     width: 350px; 
     padding: 30px;
     margin-bottom: 30px;
+    box-shadow: 0px 1px 10px 1px #cccccc;
     border-radius: 10px;
     background: #ffffff;
 }
@@ -97,6 +98,12 @@ h1 {
     font-size: 4em;
 }
 
+.price__card .price span {
+    font-size: .60em;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
 .price__card .hide-unchecked {
     visibility: hidden;
 }
@@ -104,11 +111,45 @@ h1 {
 .price__card ul li {
     padding: 10px 30px;
     border-top: 1px solid $lt-grayish-blue;
+    color: $grayish-blue;
 }
 
 .price__card ul li:last-child {
     border-bottom: 1px solid $lt-grayish-blue;
 }
+
+.price__card .cta-btn {
+    width: 285px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: $font-weight;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.center {
+    background: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    h3 {
+        color: #ffffff;
+    }
+    .price {
+        color: #ffffff;
+    }
+    ul li {
+        color: #ffffff;
+    }
+    .cta-btn {
+        background: #ffffff;
+        color: hsl(237, 63%, 64%);
+    }
+}
+
+
+
 
 /* Footer Styling */
 footer {
