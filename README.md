@@ -12,4 +12,6 @@ Frontend Mentor Project
 
 Learn about using **before** and **after** pseudocodes to place labels to the sides of the toggle switch.
 
-Wanted to try to use CSS for toggle functionality. It was easier with JS and using an addEventListener. 
+Wanted to try to use CSS for toggle functionality. It was easier with JS and using an addEventListener. Instead of using onclick in HTML
+
+[JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
