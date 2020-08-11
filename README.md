@@ -43,6 +43,8 @@ I had never used this technique before, but now I see the value in including it 
 ### Techniques I Used
 As I said earlier, I did try to use CSS for my toggle switch functionality. However, it was easier to use Vanilla JS. I added an **addEventListener** for the toggle switch instead of using **onclick** in HTML code. I refered to [JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) on the W3Schools website. 
 
+I also used **SASS** for this project. 
+
 ## Completed Design
 You can view my final design here: [Pricing Component with Toggle](https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/)
 
