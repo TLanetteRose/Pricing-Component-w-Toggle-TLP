@@ -131,9 +131,6 @@ h1 {
      background: hsl(236, 72%, 79%);
 }
 
-
-
-
 /* Price Cards Styling */
 .price__cards {
     margin: 30px;
@@ -256,7 +253,7 @@ footer {
 /* Media Queries */ 
 @media only screen and (min-width: 881px) {
     body {
-        max-width: 1440px;
+        max-width: 1500px;
     }
     .bg-top {
         position: absolute;
