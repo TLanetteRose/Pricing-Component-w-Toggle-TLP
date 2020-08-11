@@ -1,8 +1,7 @@
 # Pricing-Component-w-Toggle-TLP
-Frontend Mentor Project
+__Frontend Mentor Project__
 
 ![Design preview for Pricing Component with Toggle Challenge](./design/desktop-preview.jpg)
-
 
 ## My Challenge
 
@@ -39,9 +38,10 @@ I found a new way to position my labels beside my toggle switch. I thought about
     color: $lt-grayish-blue;
 }
 ```
+I had never used this technique before, but now I see the value in including it in my code. 
 
 ### Techniques I Used
-
+As I said earlier, I did try to use CSS for my toggle switch functionality. However, it was easier to use Vanilla JS. I added an **addEventListener** for the toggle switch instead of using **onclick** in HTML code. I refered to [JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) on the W3Schools website. 
 
 ## Completed Design
 You can view my final design here: [Pricing Component with Toggle](https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/)
@@ -56,6 +56,6 @@ Challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 
 
-Wanted to try to use CSS for toggle functionality. It was easier with JS and using an addEventListener. Instead of using onclick in HTML
 
-[JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+
